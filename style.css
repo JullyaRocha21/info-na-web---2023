@@ -1,0 +1,109 @@
+/* ESTILO GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #04002b;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    /* ... */
+}
+
+/* ... (Estilos para botões, títulos, etc.) */
+
+/* ESTILO DO CABEÇALHO */
+header {
+    padding: 40px 4%;
+}
+
+/* ... (Estilos para links, navegação, etc.) */
+
+/* ESTILO DO MENU MOBILE */
+.btn-abrir-menu {
+    display: none;
+}
+
+/* ... (Estilos para o menu mobile) */
+
+.overlay-menu {
+    background-color: #000000df;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 88888;
+    display: none;
+}
+
+/* ... (Estilos para sobreposição do menu mobile) */
+
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site {
+    padding: 40px 4%;
+}
+
+/* ... (Estilos para o topo do site) */
+
+/* ESTILO DAS INFORMACOES */
+section.informacoes {
+    padding: 40px 4%;
+}
+
+/* ... (Estilos para caixas de informações) */
+
+/* ESTILO DO SOBRE */
+section.sobre {
+    padding: 80px 4%;
+}
+
+/* ... (Estilos para a seção "Sobre") */
+
+/* ESTILO DE DETALHES */
+section.detalhes {
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+/* ... (Estilos para detalhes e imagens) */
+
+/* ESTILO DO FORMULÁRIO DE CONTATO */
+section.formulario {
+    padding: 80px 4%;
+}
+
+/* ... (Estilos para o formulário de contato) */
+
+/* ESTILO DO RODAPÉ */
+footer {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+/* ... (Estilos para o rodapé) */
+
+@media screen and (max-width: 1020px) {
+    /* ... (Estilos para respostas a telas menores) */
+}
+
+.CPRG {
+    text-align: center;
+    color: #eeff00;
+}
+
+.logo-footer {
+    display: flex;
+    justify-content: center;
+}
