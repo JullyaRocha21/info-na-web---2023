@@ -78,7 +78,7 @@ header nav ul {
 
 header nav.menu-desktop ul li {
     display: inline-block;
-    padding: 0 40px;
+    padding: 40px;
 }
 
 /* ESTILO DO MENU MOBILE */
